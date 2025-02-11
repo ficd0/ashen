@@ -9,7 +9,7 @@ For example:
 
 ```Bash
 mkdir -p ~/.config/helix/themes && \
-curl https://raw.githubusercontent.com/ficcdaf/ashen.nvim/refs/heads/main/extras/helix/ashen.toml \
+curl https://raw.githubusercontent.com/ashen-org/ashen/refs/heads/main/helix/ashen.toml \
 -o ~/.config/helix/themes/ashen.toml
 ```
 
