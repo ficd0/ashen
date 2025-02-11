@@ -1,0 +1,30 @@
+# Ashen Theme for Sway
+# Author: Daniel Fichtinger
+# License: MIT
+
+set $bg #121212
+set $fg #f5f5f5
+
+set $c0  #121212
+set $c1  #B14242
+set $c2  #D87C4A
+set $c3  #E49A44
+set $c4  #4A8B8B
+set $c5  #a7a7a7
+set $c6  #b4b4b4
+set $c7  #d5d5d5
+set $c8  #949494
+set $c9  #B14242
+set $c10 #D87C4A
+set $c11 #E49A44
+set $c12 #4A8B8B
+set $c13 #a7a7a7
+set $c14 #b4b4b4
+set $c15 #d5d5d5
+
+client.focused          $c9 $c9 $fg $c9 $c9
+client.focused_inactive $bg $bg $bg $bg $bg
+client.unfocused        $bg $bg $bg $bg $bg
+client.placeholder      $c9 $c9 $fg $c9 $c9
+client.background       $c9
+client.urgent           $c11 $c11 $fg $c11 $c11

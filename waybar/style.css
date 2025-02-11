@@ -1,0 +1,81 @@
+/* Ashen Theme for Waybar */
+/* Author: Daniel Fichtinger */
+/* License: MIT */
+@define-color bg #121212;
+@define-color fg #d5d5d5;
+@define-color grey #949494;
+@define-color red_ember #B14242;
+@define-color red_glowing #DF6464;
+@define-color orange_glow #D87C4A;
+@define-color orange_blaze #C4693D;
+@define-color orange_smolder #E49A44;
+@define-color green #629c7d;
+
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  /* font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+  font-family: SauceCodePro NFM;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+}
+
+window#waybar {
+  background: @bg;
+  padding: 0;
+  margin: 0;
+}
+
+tooltip {
+  background-color: @bg;
+  padding: 4px;
+}
+
+#clock,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio {
+  margin: 0;
+  padding: 2px 6px;
+}
+
+#workspaces {
+  background-color: @bg;
+  margin: 0;
+  padding: 2px 4px;
+}
+
+#workspaces button {
+  all: initial;
+  min-width: 0;
+  box-shadow: none;
+  padding: 2px 4px;
+  color: @fg;
+}
+
+#workspaces button.focused {
+  border: none;
+  box-shadow: inset 0 -2px @red_ember;
+}
+
+#workspaces button.urgent {
+  border: none;
+  box-shadow: inset 0 -2px @orange_glow;
+}
+
+#tray {
+  border: none;
+}
+
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+  border: none;
+}

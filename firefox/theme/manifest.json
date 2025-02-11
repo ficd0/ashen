@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Ashen",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(33, 33, 33)",
+      "toolbar_text": "rgb(177, 66, 66)",
+      "frame": "rgb(18, 18, 18)",
+      "tab_background_text": "rgb(213, 213, 213)",
+      "toolbar_field": "rgb(18, 18, 18)",
+      "toolbar_field_text": "rgb(213, 213, 213)",
+      "tab_line": "rgb(196, 105, 61)",
+      "popup": "rgb(18, 18, 18)",
+      "popup_text": "rgb(213, 213, 213)",
+      "tab_text": "rgb(229, 229, 229)",
+      "tab_loading": "rgb(196, 105, 61)"
+    }
+  }
+}

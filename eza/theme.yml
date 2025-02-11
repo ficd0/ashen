@@ -1,0 +1,104 @@
+# Ashen Theme
+# Author: Daniel Fichtinger
+# License: MIT
+colourful: true
+
+filekinds:
+  normal: { foreground: "#d5d5d5" }
+  directory: { foreground: "#B14242" }
+  symlink: { foreground: "#4A8B8B" }
+  pipe: { foreground: "#737373" }
+  block_device: { foreground: "#E5A72A" }
+  char_device: { foreground: "#E5A72A" }
+  socket: { foreground: "#d5d5d5" }
+  special: { foreground: "#E49A44" }
+  executable: { foreground: "#E49A44" }
+  mount_point: { foreground: "#DF6464" }
+
+perms:
+  user_read: { foreground: "#d5d5d5" }
+  user_write: { foreground: "#C4693D" }
+  user_execute_file: { foreground: "#B14242" }
+  user_execute_other: { foreground: "#B14242" }
+  group_read: { foreground: "#d5d5d5" }
+  group_write: { foreground: "#C4693D" }
+  group_execute: { foreground: "#B14242" }
+  other_read: { foreground: "#d5d5d5" }
+  other_write: { foreground: "#C4693D" }
+  other_execute: { foreground: "#B14242" }
+  special_user_file: { foreground: "#C53030" }
+  special_other: { foreground: "#E49A44" }
+  attribute: { foreground: "#a7a7a7" }
+
+size:
+  major: { foreground: "#4A8B8B" }
+  minor: { foreground: "#4A8B8B" }
+  number_byte: { foreground: "#4A8B8B" }
+  number_kilo: { foreground: "#4A8B8B" }
+  number_mega: { foreground: "#4A8B8B" }
+  number_giga: { foreground: "#4A8B8B" }
+  number_huge: { foreground: "#4A8B8B" }
+  unit_byte: { foreground: "#4A8B8B" }
+  unit_kilo: { foreground: "#4A8B8B" }
+  unit_mega: { foreground: "#4A8B8B" }
+  unit_giga: { foreground: "#4A8B8B" }
+  unit_huge: { foreground: "#4A8B8B" }
+
+users:
+  user_you: { foreground: "#B14242" }
+  user_root: { foreground: "#C53030" }
+  user_other: { foreground: "#DF6464" }
+  group_yours: { foreground: "#B14242" }
+  group_other: { foreground: "#DF6464" }
+  group_root: { foreground: "#C53030" }
+
+links:
+  normal: { foreground: "#4A8B8B" }
+  multi_link_file: { foreground: "#4A8B8B" }
+
+git:
+  new: { foreground: "#4A8B8B" }
+  modified: { foreground: "#C4693D" }
+  deleted: { foreground: "#B14242" }
+  renamed: { foreground: "#D87C4A" }
+  typechange: { foreground: "#B14242" }
+  ignored: { foreground: "#737373" }
+  conflicted: { foreground: "#E5A72A" }
+
+git_repo:
+  branch_main: { foreground: "#d5d5d5" }
+  branch_other: { foreground: "#B14242" }
+  git_clean: { foreground: "#4A8B8B" }
+  git_dirty: { foreground: "#C53030" }
+
+security_context:
+  colon: { foreground: "#737373" }
+  user: { foreground: "#d5d5d5" }
+  role: { foreground: "#B14242" }
+  typ: { foreground: "#E49A44" }
+  range: { foreground: "#B14242" }
+
+file_type:
+  image: { foreground: "#C4693D" }
+  video: { foreground: "#C4693D" }
+  music: { foreground: "#C4693D" }
+  lossless: { foreground: "#4A8B8B" }
+  crypto: { foreground: "#E49A44" }
+  document: { foreground: "#C4693D" }
+  compressed: { foreground: "#C53030" }
+  temp: { foreground: "#E5A72A" }
+  compiled: { foreground: "#C4693D" }
+  build: { foreground: "#C4693D" }
+  source: { foreground: "#C4693D" }
+
+punctuation: { foreground: "#737373" }
+date: { foreground: "#b4b4b4" }
+inode: { foreground: "#a7a7a7" }
+blocks: { foreground: "#a7a7a7" }
+header: { foreground: "#d5d5d5" }
+octal: { foreground: "#a7a7a7" }
+flags: { foreground: "#B14242" }
+symlink_path: { foreground: "#4A8B8B" }
+control_char: { foreground: "#4A8B8B" }
+broken_symlink: { foreground: "#C53030" }
+broken_path_overlay: { foreground: "#d5d5d5" }

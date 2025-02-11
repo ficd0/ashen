@@ -1,0 +1,41 @@
+// Ashen Theme for Waybar 
+// Author: Daniel Fichtinger
+// License: MIT
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["cpu","memory", "pulseaudio", "battery","tray", "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "sway/workspaces": {
+      "disable-scroll" : false,
+  },
+    "battery": {
+        "format": "bat {capacity}%",
+        // "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "max-volume": 150,
+        "format": "vol {volume}%",
+        "format-muted": "vol mut",
+        "nospacing": 1,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+    "cpu": {
+        "interval": 10,
+        "format": "cpu {usage}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 30,
+        "format": "mem {percentage}%",
+        "max-length": 10
+    }
+}
