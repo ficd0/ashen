@@ -1,6 +1,6 @@
-## Ashen Theme for Helix
-## Author: Daniel Fichtinger
-## License: MIT
+# Ashen for Helix
+# Author: Daniel Fichtinger
+# License: MIT
 
 # Syntax highlighting
 # -------------------
@@ -15,15 +15,15 @@
 
 "constant" = "orange_blaze"
 "constant.builtin" = "blue"
-"constant.character" = {fg = "red_glowing", modifiers = ["bold"]}
+"constant.character" = { fg = "red_glowing", modifiers = ["bold"] }
 "constant.character.escape" = "g_2"
 "constant.numeric" = "blue"
 
 "string" = "red_glowing"
 "string.regexp" = "orange_glow"
 "string.special" = "g_2"
-"string.special.url" = {fg = "red_glowing", modifiers = ["bold"]}
-"string.special.path" = {fg = "red_glowing", modifiers = ["bold"]}
+"string.special.url" = { fg = "red_glowing", modifiers = ["bold"] }
+"string.special.path" = { fg = "red_glowing", modifiers = ["bold"] }
 "string.special.symbol" = "orange_smolder"
 
 "comment" = { fg = "g_6", modifiers = ["italic"] }
@@ -32,7 +32,7 @@
 "variable" = "g_3"
 "variable.parameter" = { fg = "g_2", modifiers = ["italic"] }
 "variable.builtin" = "blue"
-"variable.other.member" = {fg = "g_2", modifiers = [""]}
+"variable.other.member" = { fg = "g_2", modifiers = [""] }
 
 "label" = "red_ember" # used for lifetimes
 
@@ -44,13 +44,13 @@
 
 "keyword" = "red_ember"
 "keyword.operator" = "orange_blaze"
-"keyword.directive" = {fg = "red_ember", modifiers = ["italic"]}
-"keyword.storage.modifier" = {fg = "red_ember", modifiers = ["italic"]}
+"keyword.directive" = { fg = "red_ember", modifiers = ["italic"] }
+"keyword.storage.modifier" = { fg = "red_ember", modifiers = ["italic"] }
 
 "operator" = "orange_glow"
 
-"function" = {fg = "g_3", modifiers = ["bold"]}
-"function.builtin" = {fg = "g_3", modifiers = ["bold", "italic"]}
+"function" = { fg = "g_3", modifiers = ["bold"] }
+"function.builtin" = { fg = "g_3", modifiers = ["bold", "italic"] }
 "function.macro" = "red_ember"
 
 "tag" = "g_5"
@@ -59,14 +59,14 @@
 
 "special" = "orange_smolder" # fuzzy highlight
 
-"markup.heading" = "red_glowing"
+"markup.heading" = { fg = "red_glowing", modifiers = ["bold"] }
 "markup.list" = "orange_glow"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.link.url" = { fg = "red_glowing", modifiers = ["italic", "underlined"] }
 "markup.link.text" = "red_ember"
-"markup.raw" = {fg = "g_4", bg = "g_10"}
-"markup.quote" = {modifiers = ["italic"]}
+"markup.raw" = { fg = "g_4", bg = "g_10" }
+"markup.quote" = { modifiers = ["italic"] }
 
 "diff.plus" = "g_4"
 "diff.minus" = "red_ember"
@@ -82,8 +82,12 @@
 "ui.statusline" = { fg = "g_3", bg = "g_9" }
 "ui.statusline.inactive" = { fg = "g_5", bg = "g_10" }
 "ui.statusline.normal" = { fg = "g_3", bg = "g_7", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "background", bg = "red_ember", modifiers = ["bold"]  }
-"ui.statusline.select" = { fg = "background", bg = "red_glowing", modifiers = ["bold"]  }
+"ui.statusline.insert" = { fg = "background", bg = "red_ember", modifiers = [
+  "bold",
+] }
+"ui.statusline.select" = { fg = "background", bg = "red_glowing", modifiers = [
+  "bold",
+] }
 
 "ui.popup" = { fg = "text", bg = "g_10" }
 "ui.info" = { fg = "orange_blaze", bg = "g_10" }
@@ -100,22 +104,27 @@
 "ui.text.directory" = { fg = "blue" }
 
 "ui.virtual" = "g_5"
-"ui.virtual.ruler" = "g_5" 
+"ui.virtual.ruler" = "g_8"
+"ui.virtual.whitespace" = "g_8"
 "ui.virtual.indent-guide" = "g_8"
 "ui.virtual.wrap" = "g_8"
-"ui.virtual.inlay-hint" = {fg = "g_6", modifiers = [ "italic"]}
-"ui.virtual.jump-label" = { fg = "background", bg = "orange_blaze", modifiers = ["bold"] }
+"ui.virtual.inlay-hint" = { fg = "g_6", modifiers = ["italic"] }
+"ui.virtual.jump-label" = { fg = "background", bg = "orange_blaze", modifiers = [
+  "bold",
+] }
 
 "ui.selection" = { bg = "g_8" }
 
 "ui.cursor" = { fg = "background", bg = "g_4" }
 "ui.cursor.primary" = { fg = "background", bg = "g_0" }
-"ui.cursor.match" = {fg = "orange_smolder", modifiers = ["underlined"]}
+"ui.cursor.match" = { fg = "orange_smolder", modifiers = ["underlined"] }
 
 "ui.cursorline.primary" = { bg = "cursorline" }
-"ui.cursorline" = { bg = "g_11" }
+"ui.cursorline" = { bg = "g_12" }
 
-"ui.highlight" = { fg = "orange_blaze", bg = "cursorline", underline = {color = "orange_smolder", style = "dotted"}, modifiers = ["bold"] }
+"ui.highlight" = { fg = "orange_blaze", bg = "cursorline", underline = { color = "orange_smolder", style = "dotted" }, modifiers = [
+  "bold",
+] }
 
 "ui.menu" = { fg = "g_2", bg = "g_10" }
 "ui.menu.selected" = { modifiers = ["reversed"] }
@@ -132,7 +141,7 @@ info = "g_2"
 hint = "g_4"
 
 [palette]
-cursorline = "#212121"
+cursorline = "#191919"
 text = "#b4b4b4"
 red_flame = "#C53030"
 red_glowing = "#DF6464"
