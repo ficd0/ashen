@@ -131,14 +131,14 @@
 
 "diagnostic.error" = { underline = { color = "red_flame", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "orange_golden", style = "curl" } }
-"diagnostic.info" = { underline = { color = "g_2", style = "curl" } }
-"diagnostic.hint" = { underline = { color = "g_4", style = "curl" } }
+"diagnostic.info" = { underline = { color = "g_4", style = "dotted" } }
+"diagnostic.hint" = { underline = { color = "g_5", style = "dotted" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 
-error = "red_flame"
-warning = "orange_golden"
-info = "g_2"
-hint = "g_4"
+error = { fg = "red_flame", bg = "g_10" }
+warning = { fg = "orange_golden", bg = "g_10" }
+info = { fg = "g_2", bg = "g_10" }
+hint = { fg = "g_4", bg = "g_10" }
 
 [palette]
 cursorline = "#191919"
