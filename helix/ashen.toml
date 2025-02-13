@@ -65,7 +65,7 @@
 "markup.italic" = { modifiers = ["italic"] }
 "markup.link.url" = { fg = "red_glowing", modifiers = ["italic", "underlined"] }
 "markup.link.text" = "red_ember"
-"markup.raw" = { fg = "g_4", bg = "g_10" }
+"markup.raw" = { fg = "g_2", bg = "g_10" }
 "markup.quote" = { modifiers = ["italic"] }
 
 "diff.plus" = "g_4"
