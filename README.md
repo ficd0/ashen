@@ -1,12 +1,14 @@
 # Ashen Themes
 
 <!--toc:start-->
+
 - [Ashen Themes](#ashen-themes)
   - [Text Editors](#text-editors)
   - [Terminal Emulators](#terminal-emulators)
   - [CLI](#cli)
   - [Environment](#environment)
   - [Web](#web)
+
 <!--toc:end-->
 
 Ashen is a warm, muted theme featuring red, orange, and plenty of grayscale.
@@ -35,6 +37,7 @@ separate repositories are linked to where appropriate.
 - [lazygit](./lazygit)
 - [yazi](./ashen.yazi)
 - [fzf](./fzf)
+- [television](./television)
 
 ## Environment
 
