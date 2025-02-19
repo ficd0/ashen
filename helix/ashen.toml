@@ -53,7 +53,7 @@
 "function.builtin" = { fg = "g_3", modifiers = ["bold", "italic"] }
 "function.macro" = "red_ember"
 
-"tag" = "g_5"
+"tag" = { fg = "orange_glow", modifiers = ["italic"] }
 
 "namespace" = { fg = "orange_blaze", modifiers = ["italic"] }
 
