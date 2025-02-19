@@ -32,7 +32,7 @@
 "variable" = "g_3"
 "variable.parameter" = { fg = "g_2", modifiers = ["italic"] }
 "variable.builtin" = "blue"
-"variable.other.member" = { fg = "g_2", modifiers = ["italic"] }
+"variable.other.member" = { fg = "g_2" }
 
 "label" = "red_ember" # used for lifetimes
 
