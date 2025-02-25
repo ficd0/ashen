@@ -43,6 +43,7 @@ separate repositories are linked to where appropriate.
 
 - [waybar](./waybar)
 - [sway](./sway)
+- [fuzzel](./fuzzel)
 
 ## Web
 
