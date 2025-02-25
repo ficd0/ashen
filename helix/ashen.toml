@@ -55,7 +55,7 @@
 
 "tag" = { fg = "orange_glow", modifiers = ["italic"] }
 
-"namespace" = { fg = "orange_blaze", modifiers = ["italic"] }
+"namespace" = { fg = "orange_glow", modifiers = ["bold"] }
 
 "special" = "orange_smolder" # fuzzy highlight
 
