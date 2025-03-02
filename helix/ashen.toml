@@ -27,6 +27,7 @@
 "string.special.symbol" = "orange_smolder"
 
 "comment" = { fg = "g_6", modifiers = ["italic"] }
+# "comment" = { fg = "#838383", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "g_5", modifiers = ["italic"] }
 
 "variable" = "g_3"
@@ -81,42 +82,47 @@
 
 "ui.statusline" = { fg = "g_3", bg = "g_9" }
 "ui.statusline.inactive" = { fg = "g_5", bg = "g_10" }
-"ui.statusline.normal" = { fg = "g_3", bg = "g_7", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "background", bg = "red_ember", modifiers = [
+"ui.statusline.normal" = { fg = "background", bg = "orange_blaze", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "g_01", bg = "g_7", modifiers = [
   "bold",
 ] }
-"ui.statusline.select" = { fg = "background", bg = "red_glowing", modifiers = [
+"ui.statusline.select" = { fg = "background", bg = "orange_golden", modifiers = [
   "bold",
 ] }
 
 "ui.popup" = { fg = "text", bg = "g_10" }
 "ui.info" = { fg = "orange_blaze", bg = "g_10" }
 "ui.window" = { fg = "g_7" }
-"ui.help" = { fg = "background", bg = "g_5" }
+"ui.help" = { fg = "text", bg = "g_10", modifiers = ["bold"]}
 
 "ui.bufferline" = { fg = "text", bg = "background" }
 "ui.bufferline.active" = { fg = "g_2", bg = "g_10", underline = { color = "orange_blaze", style = "line" } }
 "ui.bufferline.background" = { bg = "background" }
 
 "ui.text" = "text"
-"ui.text.focus" = { fg = "g_2", bg = "g_8", modifiers = ["bold"] }
+"ui.text.focus" = { fg = "background", bg = "orange_blaze", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "g_7" }
-"ui.text.directory" = { fg = "blue" }
+"ui.text.directory" = { fg = "red_ember" }
 
 "ui.virtual" = "g_5"
-"ui.virtual.ruler" = "g_8"
-"ui.virtual.whitespace" = "g_8"
-"ui.virtual.indent-guide" = "g_8"
-"ui.virtual.wrap" = "g_8"
+"ui.virtual.ruler" = "g_7"
+"ui.virtual.whitespace" = "g_7"
+"ui.virtual.indent-guide" = "g_7"
+"ui.virtual.wrap" = "g_7"
 "ui.virtual.inlay-hint" = { fg = "g_6", modifiers = ["italic"] }
 "ui.virtual.jump-label" = { fg = "background", bg = "orange_blaze", modifiers = [
   "bold",
 ] }
 
-"ui.selection" = { bg = "g_8" }
+"ui.selection" = {bg = "#322119" }
+# "ui.selection" = {fg = "background", bg = "#6C4837" }
 
-"ui.cursor" = { fg = "background", bg = "g_4" }
-"ui.cursor.primary" = { fg = "background", bg = "g_0" }
+"ui.cursor.normal" = { fg = "background", bg = "#6D3B22" }
+"ui.cursor.insert" = { fg = "background", bg = "g_7" }
+"ui.cursor.select" = { fg = "background", bg = "#6D4D0D" }
+"ui.cursor.primary.normal" = { fg = "background", bg = "orange_blaze", modifiers = ["bold"]}
+"ui.cursor.primary.insert" = { fg = "background", bg = "g_3", modifiers = ["bold"]}
+"ui.cursor.primary.select" = { fg = "background", bg = "orange_golden", modifiers = ["bold"]}
 "ui.cursor.match" = { fg = "orange_smolder", modifiers = ["underlined"] }
 
 "ui.cursorline.primary" = { bg = "cursorline" }
@@ -127,7 +133,8 @@
 ] }
 
 "ui.menu" = { fg = "g_2", bg = "g_10" }
-"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.menu.selected" = {fg = "background", bg = "orange_blaze", modifiers = ["bold"]}
+# "ui.menu.selected" = { modifiers = ["reversed"] }
 
 "diagnostic.error" = { underline = { color = "red_flame", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "orange_golden", style = "curl" } }
