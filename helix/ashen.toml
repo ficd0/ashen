@@ -71,7 +71,7 @@
 
 "diff.plus" = "g_4"
 "diff.minus" = "red_ember"
-"diff.delta" = "orange_smolder"
+"diff.delta" = "#89492a"
 
 # User Interface
 # --------------
