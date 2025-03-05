@@ -85,7 +85,7 @@
 "ui.statusline.normal" = { fg = "background", bg = "orange_blaze", modifiers = [
   "bold",
 ] }
-"ui.statusline.insert" = { fg = "g_01", bg = "g_7", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "g_1", bg = "g_7", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "background", bg = "orange_golden", modifiers = [
   "bold",
 ] }
