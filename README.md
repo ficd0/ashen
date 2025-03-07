@@ -19,7 +19,7 @@ separate repositories are linked to where appropriate.
 ## Text Editors
 
 - [Helix](./helix)
-- [Neovim](https://github.com/ashen-org/ashen.nvim)
+- [Neovim](https://github.com/ficcdaf/ashen.nvim)
 
 ## Terminal Emulators
 
