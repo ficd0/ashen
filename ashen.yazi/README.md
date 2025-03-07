@@ -7,7 +7,7 @@
 You can install Ashen with Yazi's package manager:
 
 ```bash
-ya pack -a ashen-org/ashen:ashen
+ya pack -a ficcdaf/ashen:ashen
 ```
 
 Alternatively, download the `ashen.yazi` folder and place it inside
