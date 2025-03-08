@@ -10,7 +10,7 @@ return {
   cursor_border = "#f5f5f5",
 
   selection_fg = "#f5f5f5",
-  selection_bg = "#121212",
+  selection_bg = "#1d1d1d",
 
   scrollbar_thumb = "#121212",
   split = "#121212",
