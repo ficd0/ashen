@@ -1,15 +1,14 @@
 # Ashen Themes
 
 <!--toc:start-->
-
 - [Ashen Themes](#ashen-themes)
   - [Text Editors](#text-editors)
   - [Terminal Emulators](#terminal-emulators)
-  - [CLI](#cli)
+  - [CLI/TUI](#clitui)
   - [Environment](#environment)
   - [Web](#web)
-
 <!--toc:end-->
+
 
 Ashen is a warm, muted theme featuring red, orange, and plenty of grayscale.
 
@@ -30,7 +29,7 @@ separate repositories are linked to where appropriate.
 - [WezTerm](./wezterm)
 - [foot](./foot)
 
-## CLI
+## CLI/TUI
 
 - [bat](./bat)
 - [eza](./eza)
@@ -38,6 +37,7 @@ separate repositories are linked to where appropriate.
 - [yazi](./ashen.yazi)
 - [fzf](./fzf)
 - [television](./television)
+- [aerc](./aerc)
 
 ## Environment
 
