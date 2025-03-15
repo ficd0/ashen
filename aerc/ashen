@@ -1,0 +1,93 @@
+# This styleset uses the terminal defaults as its base.
+# More information on how to configure the styleset can be found in
+# the aerc-stylesets(7) manpage. Please read the manual before
+# modifying or creating a styleset.
+
+*.default = true
+*.normal = true
+
+
+*.selected.bg = #1d1d1d
+*.selected.fg = #C4693D
+*.selected.bold = true
+*.selected.underline = true
+default.bg = #121212
+default.fg = #d5d5d5
+
+statusline_*.dim = true
+
+*warning.dim = false
+*warning.bold = true
+*warning.fg = #E5A72A
+*success.dim = false
+*success.bold = true
+*success.fg = #4A8B8B
+*error.dim = false
+*error.bold = true
+*error.fg = #C53030
+
+border.fg = #B14242
+border.bold = true
+title.fg = #121212
+title.bg = #B14242
+title.bold = true
+tab.fg = #d5d5d5
+tab.bold = true
+tab.selected.fg = #C4693D
+tab.selected.bg = #1d1d1d
+
+header.fg = #B14242
+header.bold = true
+
+msglist_read.fg = #b4b4b4
+msglist_unread.bold = true
+msglist_unread.fg = #d5d5d5
+msglist_deleted.dim = true
+msglist_marked.bg = #B14242
+msglist_marked.fg = #121212
+msglist_marked.bold = true
+msglist_pill.fg = #121212
+msglist_pill.bg = #B14242
+msglist_result.fg = #FFFFFF
+msglist_thread_folded.italic = true
+
+part_mimetype.bg = #191919
+part_mimetype.fg = #E49A44
+part_mimetype.selected.bg = #191919
+part_mimetype.selected.fg = #E49A44
+
+selector_chooser.bold = true
+selector_focused.bold = true
+selector_focused.bg = #C4693D
+selector_focused.fg = #121212
+
+completion_*.bg = #1d1d1d
+completion_pill.bg = #B14242
+completion_pill.fg = #121212
+completion_default.fg = #d5d5d5
+
+[viewer]
+# Uncomment these two lines to reset all attributes in the [viewer] section.
+# *.default = true
+# *.normal = true
+url.underline = true
+url.italic = true
+url.fg = #DF6464
+header.bold = true
+header.fg = #B14242
+signature.fg = #737373
+signature.italic = true
+diff_meta.bold = true
+diff_chunk.fg = #d5d5d5
+diff_chunk_func.fg = #d5d5d5
+diff_chunk_func.dim = true
+diff_add.fg = #629C7D
+diff_del.fg = #C53030
+quote_1.italic = true
+quote_2.italic = true
+quote_3.italic = true
+quote_3.dim= true
+quote_4.italic = true
+quote_4.dim= true
+quote_x.italic = true
+quote_x.dim= true
