@@ -39,11 +39,12 @@ separate repositories are linked to where appropriate.
 - [television](./television)
 - [aerc](./aerc)
 
-## Environment
+## GUI
 
 - [waybar](./waybar)
 - [sway](./sway)
 - [fuzzel](./fuzzel)
+- [zathura](./zathura)
 
 ## Web
 
