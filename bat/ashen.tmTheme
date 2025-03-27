@@ -15,28 +15,36 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>accent</key>
-				<string>#E49A44</string>
 				<key>activeGuide</key>
-				<string>#1D1D1D</string>
+				<string>#D87C4A</string>
 				<key>background</key>
 				<string>#121212</string>
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
 				<key>caret</key>
-				<string>#C4693D</string>
+				<string>#f8f8f0</string>
+				<key>findHighlight</key>
+				<string>#D87C4A</string>
+				<key>findHighlightForeground</key>
+				<string>#121212</string>
 				<key>foreground</key>
 				<string>#B4B4B4</string>
-				<key>gutterForeground</key>
-				<string>#B4B4B4</string>
 				<key>invisibles</key>
-				<string>#000000</string>
+				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#191919</string>
-				<key>misspelling</key>
-				<string>#C53030</string>
+				<string>#353535</string>
 				<key>selection</key>
-				<string>#322119</string>
+				<string>#323232</string>
 				<key>selectionBorder</key>
-				<string>#1D1D1D</string>
+				<string>#222218</string>
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>

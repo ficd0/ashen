@@ -1,17 +1,21 @@
 # Note: Define colors as a string that references
 # a name in the ashen palette for easier maintenance.
 - settings:
-    accent: orange_smolder
-    activeGuide: g_10
-    background: background
-    invisibles: '#000000'
-    selectionBorder: g_10
-    caret: orange_blaze
-    foreground: text
-    gutterForeground: text
-    lineHighlight: cursorline
-    misspelling: red_flame
-    selection: brown_dark
+    background: "#121212"
+    caret: "#f8f8f0"
+    foreground: "#B4B4B4"
+    invisibles: "#3B3A32"
+    lineHighlight: "#353535"
+    selection: "#323232"
+    findHighlight: "#D87C4A"
+    findHighlightForeground: "#121212"
+    selectionBorder: "#222218"
+    activeGuide: "#D87C4A"
+    bracketsForeground: "#F8F8F2A5"
+    bracketsOptions: "underline"
+    bracketContentsForeground: "#F8F8F2A5"
+    bracketContentsOptions: "underline"
+    tagsOptions: "stippled_underline"
 - name: Basic text & variable names (incl. leading punctuation)
   scope: text, source, variable.other.readwrite, punctuation.definition.variable
   settings:
