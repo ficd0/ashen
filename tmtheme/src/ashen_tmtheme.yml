@@ -807,7 +807,7 @@
 - name: JSON Keys
   scope: source.json meta.mapping.key string
   settings:
-    foreground: red_glowing
+    foreground: g_2
 - name: JSON key surrounding quotes
   scope: source.json meta.mapping.key punctuation.definition.string.begin, source.json
     meta.mapping.key punctuation.definition.string.end
