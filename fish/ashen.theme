@@ -13,7 +13,7 @@ fish_color_comment 737373 -i
 fish_color_error B14242
 fish_color_gray 737373
 fish_color_selection --background=322119
-fish_color_search_match --background=C4693D
+fish_color_search_match 121212 --background=322119
 fish_color_option D87C4A
 fish_color_operator C4693D
 fish_color_escape D5D5D5
@@ -26,5 +26,5 @@ fish_color_host_remote C4693D
 fish_color_status D87C4A
 fish_pager_color_progress D87C4A
 fish_pager_color_prefix D87C4A
-fish_pager_color_completion 322119
-fish_pager_color_description 949494
+fish_pager_color_completion B4B4B4
+fish_pager_color_description A7A7A7
