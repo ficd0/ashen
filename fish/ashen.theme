@@ -3,7 +3,7 @@
 # preferred_background: 121212
 
 fish_color_normal B4B4B4
-fish_color_command B4B4B4 -o
+fish_color_command C4693D -o
 fish_color_param D5D5D5
 fish_color_keyword B14242 -o
 fish_color_quote DF6464
