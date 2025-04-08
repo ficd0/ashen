@@ -7,6 +7,8 @@ secrets:
 environment:
   github: git@github.com:ficcdaf/ashen.git
 tasks:
+  - setup: |
+      ssh-keyscan github.com >> ~/.ssh/known_hosts
   - mirror: |
       cd ashen
       git remote add github "$github"
