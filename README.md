@@ -27,7 +27,7 @@ contact the [mailing list](https://lists.sr.ht/~ficd/ashen).
 ## Text Editors
 
 - [Helix](/helix/README.md)
-- [Neovim](https://github.com/ficcdaf/ashen.nvim)
+- [Neovim](https://git.sr.ht/~ficd/ashen.nvim)
 
 ## Terminal Emulators
 

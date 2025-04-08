@@ -2,4 +2,4 @@
 
 The Neovim theme is maintained in a separate repository:
 
-[https://github.com/ficcdaf/ashen.nvim](https://github.com/ficcdaf/ashen.nvim)
+[git.sr.ht/~ficd/ashen.nvim](https://git.sr.ht/~ficd/ashen.nvim)
