@@ -1,0 +1,13 @@
+image: alpine/latest
+packages:
+  - git
+  - openssh
+secrets:
+  - 55ecb887-0d6a-430c-a7f5-bd58a99a204a
+environment:
+  github: git@github.com:ficcdaf/ashen.git
+tasks:
+  - mirror: |
+      cd ashen
+      git remote add github "$github"
+      git push --mirror github
