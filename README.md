@@ -26,7 +26,7 @@ contact the [mailing list](https://lists.sr.ht/~ficd/ashen).
 
 ## Text Editors
 
-- [Helix](/helix/README.md)
+- [Helix](./helix/README.md)
 - [Neovim](https://git.sr.ht/~ficd/ashen.nvim)
 
 ## Terminal Emulators
@@ -34,32 +34,32 @@ contact the [mailing list](https://lists.sr.ht/~ficd/ashen).
 - [Ghostty](./ghostty)
 - [Kitty](./kitty)
 - [Alacritty](./alacritty)
-- [Windows Terminal](/windows-terminal/README.md)
-- [WezTerm](/wezterm/README.md)
+- [Windows Terminal](./windows-terminal/README.md)
+- [WezTerm](./wezterm/README.md)
 - [foot](./foot/README.md)
 
 ## CLI/TUI
 
-- [bat](/bat/README.md)
-- [eza](/eza/README.md)
-- [lazygit](/lazygit/README.md)
-- [yazi](/ashen.yazi/README.md)
-- [fzf](/fzf/README.md)
-- [fish](/fish/README.md)
-- [television](/television/README.md)
-- [aerc](/aerc/README.md)
+- [bat](./bat/README.md)
+- [eza](./eza/README.md)
+- [lazygit](./lazygit/README.md)
+- [yazi](./ashen.yazi/README.md)
+- [fzf](./fzf/README.md)
+- [fish](./fish/README.md)
+- [television](./television/README.md)
+- [aerc](./aerc/README.md)
 
 ## GUI
 
-- [waybar](/waybar/README.md)
-- [sway](/sway/README.md)
-- [fuzzel](/fuzzel/README.md)
-- [zathura](/zathura/README.md)
-- [Firefox](/firefox/README.md)
+- [waybar](./waybar/README.md)
+- [sway](./sway/README.md)
+- [fuzzel](./fuzzel/README.md)
+- [zathura](./zathura/README.md)
+- [Firefox](./firefox/README.md)
 
 ## Format
 
-- [tmTheme](/tmtheme/README.md)
+- [tmTheme](./tmtheme/README.md)
 
 # Contributing
 
