@@ -56,6 +56,7 @@ contact the [mailing list](https://lists.sr.ht/~ficd/ashen).
 - [fuzzel](./fuzzel/README.md)
 - [zathura](./zathura/README.md)
 - [Firefox](./firefox/README.md)
+- [Monkeytype](./monkeytype/README.md)
 
 ## Format
 
