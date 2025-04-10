@@ -1,4 +1,4 @@
-# Ashen for Neovim
+# Neovim
 
 The Neovim theme is maintained in a separate repository:
 

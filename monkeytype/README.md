@@ -3,9 +3,3 @@
 Monkeytype allows for encoding themes as a URL for easy sharing. Simply clicking
 [this link](https://monkeytype.com?customTheme=eyJjIjpbIiMxMjEyMTIiLCIjYjE0MjQyIiwiI2U0OWE0NCIsIiM3MzczNzMiLCIjMjEyMTIxIiwiI2I0YjRiNCIsIiNjNTMwMzAiLCIjN2UyYTMzIiwiI2M1MzAzMCIsIiM3ZTJhMzMiXSwiaSI6IiIsInMiOiJjb3ZlciIsImYiOlswLDEsMSwxXX0=)
 will automatically apply Ashen.
-
-For transparency, see below the URL:
-
-```
-https://monkeytype.com?customTheme=eyJjIjpbIiMxMjEyMTIiLCIjYjE0MjQyIiwiI2U0OWE0NCIsIiM3MzczNzMiLCIjMjEyMTIxIiwiI2I0YjRiNCIsIiNjNTMwMzAiLCIjN2UyYTMzIiwiI2M1MzAzMCIsIiM3ZTJhMzMiXSwiaSI6IiIsInMiOiJjb3ZlciIsImYiOlswLDEsMSwxXX0=
-```

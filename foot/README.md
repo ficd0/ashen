@@ -1,9 +1,10 @@
 The recommended way to install the theme is to use foot's `include` directive.
-Clone this repository and place the following into your `foot.ini` file:
+Download [ashen.ini](https://git.sr.ht/~ficd/ashen/blob/main/foot/ashen.ini) and
+edit `foot.ini`:
 
 ```ini
 # Must be an absolute path.
-include=~/dev/ashen/foot/ashen.ini
+include=~/path/to/ashen.ini
 ```
 
 Alternatively, you may copy the contents of `ashen.ini` into you `foot.ini`

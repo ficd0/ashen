@@ -1,11 +1,18 @@
-Please download `ashen.toml` and place it inside your television configuration's theme directory, usually `~/.config/television/themes`. Then, you can enable Ashen in your television `config.toml`:
+# Television
+
+Please download
+[ashen.toml](https://git.sr.ht/~ficd/ashen/blob/main/television/ashen.toml) and
+place it inside your television configuration's theme directory, usually
+`~/.config/television/themes`. Then, you can enable Ashen in your television
+`config.toml`:
 
 ```toml
 [ui]
 theme = "ashen"
 ```
 
-If you've installed the [bat](/bat/README.md) integration, you can also add the following to your `config.toml`:
+If you've installed the [bat](/bat/README.md) integration, you can also add the
+following to your `config.toml`:
 
 ```toml
 [previewers.file]

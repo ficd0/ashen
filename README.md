@@ -46,9 +46,9 @@ carrier pigeon_.)
 
 > _Words against the dark — quiet, deliberate._
 
-- [Ghostty](./ghostty) — sleek and spectral.
-- [Kitty](./kitty) — for configuration fiends seeking warm tones.
-- [Alacritty](./alacritty) — no distractions, just firepower.
+- [Ghostty](./ghostty/README.md) — sleek and spectral.
+- [Kitty](./kitty/README.md) — for configuration fiends seeking warm tones.
+- [Alacritty](./alacritty/README.md) — no distractions, just firepower.
 - [Windows Terminal](./windows-terminal/README.md) — Ashen for the dark side.
 - [WezTerm](./wezterm/README.md) — endlessly configurable, never loud.
 - [foot](./foot/README.md) — a dark theme for a light terminal.
