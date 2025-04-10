@@ -1,70 +1,90 @@
-# Ashen Themes
+# Ashen
+
+> _**Let the fire fade — not your focus**._
+>
+> _Designed for long nights and longer thoughts._
+>
+> _Muted tones for restless minds._
 
 ![](helix/preview.png)
 
+[Ashen](https://sr.ht/~ficd/ashen/) is a warm, muted theme born from the glow of
+dying embers — rich in reds, orange highlights, and layers of gray. Inspired by
+_Dark Souls III_, it's crafted to be gentle on the eyes and steady on the mind.
+Whether you're deep in the terminal or writing code by candlelight — Ashen
+offers a calm, focused atmosphere for development after dark.
+
+This monorepository contains official implementations of Ashen across a range of
+editors, terminals, tools, and more — each carefully tuned to carry the same
+muted warmth. The project lives on [sourcehut](https://sr.ht/~ficd/ashen/) and
+is mirrored on [GitHub](https://github.com/ficcdaf/ashen). To report issues or
+make requests, visit the [ticket tracker](https://todo.sr.ht/~ficd/ashen) or
+contact the [mailing list](https://lists.sr.ht/~ficd/ashen) (_possibly by
+carrier pigeon_.)
+
 <!--toc:start-->
 
-- [Ashen Themes](#ashen-themes)
-  - [Text Editors](#text-editors)
-  - [Terminal Emulators](#terminal-emulators)
-  - [CLI/TUI](#clitui)
-  - [GUI](#gui)
-  - [Format](#format)
-- [Contributing](#contributing)
+- [Ashen](#ashen)
+  - [Editors](#editors)
+  - [Terminals](#terminals)
+  - [Tools & Interfaces](#tools-interfaces)
+  - [Desktop & UI](#desktop-ui)
+  - [Theme Formats](#theme-formats)
+  - [Contributing](#contributing)
 
 <!--toc:end-->
 
-[Ashen](https://sr.ht/~ficd/ashen/) is a warm, muted theme featuring red,
-orange, and plenty of gray. It's designed to be easy on the eyes, well-suited to
-programming in the dark, and evoke a sense of comfort and warmth. Inspirations
-are Dark Souls 3 and
-[nvim-noirbuddy](https://github.com/jesseleite/nvim-noirbuddy).
+## Editors
 
-This monorepository contains implementations of Ashen for a variety of
-applications. It's hosted on [sourcehut](https://sr.ht/~ficd/ashen/) and
-mirrored on [GitHub](https://github.com/ficcdaf/ashen) for users' convenience.
-Please submit issues to the [ticket tracker](https://todo.sr.ht/~ficd/ashen) or
-contact the [mailing list](https://lists.sr.ht/~ficd/ashen).
+> _Where syntax takes shape._
 
-## Text Editors
+- [Helix](./helix/README.md) — the best theme for the best editor.
+- [Neovim](https://git.sr.ht/~ficd/ashen.nvim) — Lua plugin for modern Vim
+  sorcerers.
 
-- [Helix](./helix/README.md)
-- [Neovim](https://git.sr.ht/~ficd/ashen.nvim)
+## Terminals
 
-## Terminal Emulators
+> _Words against the dark — quiet, deliberate._
 
-- [Ghostty](./ghostty)
-- [Kitty](./kitty)
-- [Alacritty](./alacritty)
-- [Windows Terminal](./windows-terminal/README.md)
-- [WezTerm](./wezterm/README.md)
-- [foot](./foot/README.md)
+- [Ghostty](./ghostty) — sleek and spectral.
+- [Kitty](./kitty) — for configuration fiends seeking warm tones.
+- [Alacritty](./alacritty) — no distractions, just firepower.
+- [Windows Terminal](./windows-terminal/README.md) — Ashen for the dark side.
+- [WezTerm](./wezterm/README.md) — endlessly configurable, never loud.
+- [foot](./foot/README.md) — a dark theme for a light terminal.
 
-## CLI/TUI
+## Tools & Interfaces
 
-- [bat](./bat/README.md)
-- [eza](./eza/README.md)
-- [lazygit](./lazygit/README.md)
-- [yazi](./ashen.yazi/README.md)
-- [fzf](./fzf/README.md)
-- [fish](./fish/README.md)
-- [television](./television/README.md)
-- [aerc](./aerc/README.md)
+> _Terminal tools softened by firelight._
 
-## GUI
+- [bat](./bat/README.md) — like `cat`, but warmer.
+- [eza](./eza/README.md) — a modern `ls` with subtle highlights.
+- [lazygit](./lazygit/README.md) — `git` bathed in ember tones.
+- [yazi](./ashen.yazi/README.md) — fast, clean file browsing.
+- [fzf](./fzf/README.md) — fuzzy finding with focus.
+- [fish](./fish/README.md) — the friendly shell made even friendlier.
+- [television](./television/README.md) — fuzzier `fzf` in gray.
+- [aerc](./aerc/README.md) — email done plainly, with muted elegance.
 
-- [waybar](./waybar/README.md)
-- [sway](./sway/README.md)
-- [fuzzel](./fuzzel/README.md)
-- [zathura](./zathura/README.md)
-- [Firefox](./firefox/README.md)
-- [Monkeytype](./monkeytype/README.md)
+## Desktop & UI
 
-## Format
+> _Let your environment glow._
 
-- [tmTheme](./tmtheme/README.md)
+- [waybar](./waybar/README.md) — a status bar with just enough light.
+- [sway](./sway/README.md) — a tiled workspace in quiet tones.
+- [fuzzel](./fuzzel/README.md) — launch your apps with a whisper.
+- [zathura](./zathura/README.md) — focused reading for tired eyes.
+- [Firefox](./firefox/README.md) — the web, dimmed for comfort.
+- [Monkeytype](./monkeytype/README.md) — compose Shakespeare, Ashen style.
 
-# Contributing
+## Theme Formats
+
+> _For bringing Ashen elsewhere._
+
+- [tmTheme](./tmtheme/README.md) — classic syntax format (TextMate, Sublime, and
+  more).
+
+## Contributing
 
 I welcome contributions! If you have a problem or a request, please submit a
 ticket or contact the mailing list. Send patches to
