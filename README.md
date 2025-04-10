@@ -3,10 +3,8 @@
 > _**Let the fire fade — not your focus**._
 >
 > _Designed for long nights and longer thoughts._
->
-> _Muted tones for restless minds._
 
-![](helix/preview.png)
+![](helix/preview_wide.png)
 
 [Ashen](https://sr.ht/~ficd/ashen/) is a warm, muted theme born from the glow of
 dying embers — rich in reds, orange highlights, and layers of gray. Inspired by
@@ -33,6 +31,8 @@ carrier pigeon_.)
   - [Contributing](#contributing)
 
 <!--toc:end-->
+
+![](preview/palette.png)
 
 ## Editors
 
