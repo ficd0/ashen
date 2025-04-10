@@ -1,15 +1,13 @@
 # Ashen For Helix
 
-> [!WARNING]
-> The Helix theme is still in beta! I recommend checking this repo for updates often. I'm still new to using Helix myself, so I'm certain I'll find ways to improve the theme.
+![](preview.png)
 
-To install Ashen for Helix, please download the `ashen.toml` file 
-and place it inside your Helix configuration's `themes` folder.
-For example:
+To install Ashen for Helix, please download the `ashen.toml` file and place it
+inside your Helix configuration's `themes` folder. For example:
 
 ```Bash
 mkdir -p ~/.config/helix/themes && \
-curl https://raw.githubusercontent.com/ficcdaf/ashen/refs/heads/main/helix/ashen.toml \
+curl https://git.sr.ht/~ficd/ashen/blob/main/helix/ashen.toml \
 -o ~/.config/helix/themes/ashen.toml
 ```
 
