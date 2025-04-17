@@ -20,17 +20,12 @@ make requests, visit the [ticket tracker](https://todo.sr.ht/~ficd/ashen) or
 contact the [mailing list](https://lists.sr.ht/~ficd/ashen) (_possibly by
 carrier pigeon_.)
 
-<!--toc:start-->
-
-- [Ashen](#ashen)
-  - [Editors](#editors)
-  - [Terminals](#terminals)
-  - [Tools & Interfaces](#tools-interfaces)
-  - [Desktop & UI](#desktop-ui)
-  - [Theme Formats](#theme-formats)
-  - [Contributing](#contributing)
-
-<!--toc:end-->
+- [Editors](#editors)
+- [Terminals](#terminals)
+- [Tools & Interfaces](#tools--interfaces)
+- [Desktop & UI](#desktop--ui)
+- [Theme Formats](#theme-formats)
+- [Contributing](#contributing)
 
 ![](preview/palette.png)
 
