@@ -1,6 +1,13 @@
 # Ashen for Helix
-# Author: Daniel Fichtinger
-# License: MIT
+# -------------------
+# Author: Daniel Fichtinger <daniel@ficd.ca>
+# License: MIT License
+# Upstream: https://sr.ht/~ficd/ashen
+# -------------------
+# Sections:
+# - Syntax highlighting
+# - User interface
+# - Palette
 
 # Syntax highlighting
 # -------------------
@@ -27,7 +34,6 @@
 "string.special.symbol" = "orange_smolder"
 
 "comment" = { fg = "g_6", modifiers = ["italic"] }
-# "comment" = { fg = "#838383", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "g_5", modifiers = ["italic"] }
 
 "variable" = "g_3"
@@ -71,7 +77,7 @@
 
 "diff.plus" = "g_4"
 "diff.minus" = "red_ember"
-"diff.delta" = "#89492a"
+"diff.delta" = "brown"
 
 # User Interface
 # --------------
@@ -116,12 +122,11 @@
   "bold",
 ] }
 
-"ui.selection" = { bg = "#322119" }
-# "ui.selection" = {fg = "background", bg = "#6C4837" }
+"ui.selection" = { bg = "brown_dark" }
 
-"ui.cursor.normal" = { fg = "background", bg = "#6D3B22" }
+"ui.cursor.normal" = { fg = "background", bg = "orange_muted" }
 "ui.cursor.insert" = { fg = "background", bg = "g_7" }
-"ui.cursor.select" = { fg = "background", bg = "#6D4D0D" }
+"ui.cursor.select" = { fg = "background", bg = "golden_muted" }
 "ui.cursor.primary.normal" = { fg = "background", bg = "orange_blaze", modifiers = [
   "bold",
 ] }
@@ -144,7 +149,6 @@
 "ui.menu.selected" = { fg = "background", bg = "orange_blaze", modifiers = [
   "bold",
 ] }
-# "ui.menu.selected" = { modifiers = ["reversed"] }
 
 "diagnostic.error" = { underline = { color = "red_flame", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "orange_golden", style = "curl" } }
@@ -165,15 +169,14 @@ red_glowing = "#DF6464"
 red_ember = "#B14242"
 orange_glow = "#D87C4A"
 orange_blaze = "#C4693D"
+orange_muted = "#6D3B22"
 orange_smolder = "#E49A44"
 orange_golden = "#E5A72A"
+golden_muted = "#6D4D0D"
 brown = "#89492a"
 brown_dark = "#322119"
 blue = "#4A8B8B"
-green_light = "#629C7D"
-green = "#1E6F54"
 background = "#121212"
-g_0 = "#e5e5e5"
 g_1 = "#e5e5e5"
 g_2 = "#d5d5d5"
 g_3 = "#b4b4b4"
