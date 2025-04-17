@@ -75,7 +75,7 @@
 "markup.raw" = { fg = "g_2", bg = "g_10" }
 "markup.quote" = { modifiers = ["italic"] }
 
-"diff.plus" = "g_4"
+"diff.plus" = "g_6"
 "diff.minus" = "red_ember"
 "diff.delta" = "brown"
 
