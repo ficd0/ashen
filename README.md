@@ -60,6 +60,7 @@ carrier pigeon_.)
 - [fish](./fish/README.md) — the friendly shell made even friendlier.
 - [television](./television/README.md) — fuzzier `fzf` in gray.
 - [aerc](./aerc/README.md) — email done plainly, with muted elegance.
+- [zellij](./zellij/README.md) — terminal multiplexed with subdued grace.
 
 ## Desktop & UI
 
