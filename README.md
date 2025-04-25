@@ -14,11 +14,10 @@ offers a calm, focused atmosphere for development after dark.
 
 This monorepository contains official implementations of Ashen across a range of
 editors, terminals, tools, and more — each carefully tuned to carry the same
-muted warmth. The project lives on [sourcehut](https://sr.ht/~ficd/ashen/) and
-is mirrored on [GitHub](https://github.com/ficcdaf/ashen). To report issues or
-make requests, visit the [ticket tracker](https://todo.sr.ht/~ficd/ashen) or
-contact the [mailing list](https://lists.sr.ht/~ficd/ashen) (_possibly by
-carrier pigeon_.)
+muted warmth. The project is developed on
+[sourcehut](https://sr.ht/~ficd/ashen/) and provides a read-only mirror on
+[GitHub](https://github.com/ficcdaf/ashen). Please see
+[Contributing](#contributing) to learn how to contribute to Ashen.
 
 - [Editors](#editors)
 - [Terminals](#terminals)
@@ -82,8 +81,14 @@ carrier pigeon_.)
 
 ## Contributing
 
-I welcome contributions! If you have a problem or a request, please submit a
-ticket or contact the mailing list. Send patches to
+To submit bug reports and requests, please visint the
+[ticket tracker](https://todo.sr.ht/~ficd/ashen). For any other discussions,
+contact the [mailing list](https://lists.sr.ht/~ficd/ashen) (_possibly by
+carrier pigeon_.)
+
+I do not accept PRs on GitHub! Please consult
+[the documentation](https://man.sr.ht/git.sr.ht/#sending-patches-upstream) to
+learn how to contribute on sourcehut. Send your patches to
 [~ficd/ashen-devel](https://lists.sr.ht/~ficd/ashen-devel).
 
 If you're porting Ashen, use the existing ports as a reference for the palette
