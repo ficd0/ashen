@@ -78,6 +78,8 @@ muted warmth. The project is developed on
 
 - [tmTheme](./tmtheme/README.md) — classic syntax format (TextMate, Sublime, and
   more).
+- [Base16](/base16/README.md) — highly portable, no-nonsense theme
+  specification.
 
 ## Contributing
 
