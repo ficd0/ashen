@@ -78,12 +78,12 @@ muted warmth. The project is developed on
 
 - [tmTheme](./tmtheme/README.md) — classic syntax format (TextMate, Sublime, and
   more).
-- [Base16](/base16/README.md) — highly portable, no-nonsense theme
+- [Base16](./base16/README.md) — highly portable, no-nonsense theme
   specification.
 
 ## Contributing
 
-To submit bug reports and requests, please visint the
+To submit bug reports and requests, please visit the
 [ticket tracker](https://todo.sr.ht/~ficd/ashen). For any other discussions,
 contact the [mailing list](https://lists.sr.ht/~ficd/ashen) (_possibly by
 carrier pigeon_.)
@@ -94,7 +94,7 @@ learn how to contribute on sourcehut. Send your patches to
 [~ficd/ashen-devel](https://lists.sr.ht/~ficd/ashen-devel).
 
 If you're porting Ashen, use the existing ports as a reference for the palette
-and overall feel. Treat [Helix](/helix/README.md) as the "ultimate" guide on the
+and overall feel. Treat [Helix](./helix/README.md) as the "ultimate" guide on the
 colors to be assigned to syntax elements.
 
 As a rule of thumb: numbers and builtin literal types should be `blue`, strings
