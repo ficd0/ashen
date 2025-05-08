@@ -35,6 +35,7 @@ muted warmth. The project is developed on
 - [Helix](./helix/README.md) — the best theme for the best editor.
 - [Neovim](https://git.sr.ht/~ficd/ashen.nvim) — Lua plugin for modern Vim
   sorcerers.
+- [Kakoune](./kakoune/README.md) — be POSIX compliant in style.
 
 ## Terminals
 
