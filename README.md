@@ -35,7 +35,8 @@ muted warmth. The project is developed on
 - [Helix](./helix/README.md) — the best theme for the best editor.
 - [Neovim](https://git.sr.ht/~ficd/ashen.nvim) — Lua plugin for modern Vim
   sorcerers.
-- [Kakoune](./kakoune/README.md) — be POSIX compliant in style.
+- [Kakoune](https://git.sr.ht/~ficd/kak-ashen) — POSIX compliant editing, in
+  style.
 
 ## Terminals
 
@@ -95,8 +96,8 @@ learn how to contribute on sourcehut. Send your patches to
 [~ficd/ashen-devel](https://lists.sr.ht/~ficd/ashen-devel).
 
 If you're porting Ashen, use the existing ports as a reference for the palette
-and overall feel. Treat [Helix](./helix/README.md) as the "ultimate" guide on the
-colors to be assigned to syntax elements.
+and overall feel. Treat [Helix](./helix/README.md) as the "ultimate" guide on
+the colors to be assigned to syntax elements.
 
 As a rule of thumb: numbers and builtin literal types should be `blue`, strings
 `red_glowing`, keywords `red_ashen`, operators `orange_blaze`, delimiters
