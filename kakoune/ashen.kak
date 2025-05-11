@@ -57,14 +57,41 @@ set-face global link      "%opt{red_glowing}+ui"
 set-face global bullet    "%opt{orange_glow}"
 set-face global list      "%opt{orange_glow}"
 
+# SPECIAL CURSOR BLOCK
+# We implement a Helix-like cursor changing color.
+# Off by default; ashen_dynamic_cursor option must be set to true.
+declare-option bool ashen_dynamic_cursor false
+
+# Helix-like insert/normal mode cursor
+set-face global PrimaryCursorNormal   "%opt{background},%opt{orange_blaze}+gfb"
+set-face global SecondaryCursorNormal "%opt{background},%opt{orange_muted}+gf"
+set-face global PrimaryCursorInsert   "%opt{background},%opt{g_3}+gfb"
+set-face global SecondaryCursorInsert "%opt{background},%opt{g_7}+gf"
+set-face global PrimaryCursor   PrimaryCursorNormal
+set-face global SecondaryCursor SecondaryCursorNormal
+
+hook global ModeChange (push|pop):.*insert %{
+	evaluate-commands %sh{
+		if [ "$kak_opt_ashen_dynamic_cursor" = "true" ]; then
+		echo "set-face window PrimaryCursor PrimaryCursorInsert"
+		echo "set-face window SecondaryCursor SecondaryCursorInsert"
+		fi
+	}
+}
+
+hook global ModeChange (push|pop):insert:.* %{
+	evaluate-commands %sh{
+		if [ "$kak_opt_ashen_dynamic_cursor" = "true" ]; then
+		echo "set-face window PrimaryCursor PrimaryCursorNormal"
+		echo "set-face window SecondaryCursor SecondaryCursorNormal"
+		fi
+	}
+}
+
 # Built-in UI
 set-face global Default            "%opt{text},%opt{background}"
-set-face global PrimaryCursor   "%opt{background},%opt{orange_blaze}+gfb"
-set-face global SecondaryCursor "%opt{background},%opt{orange_muted}+gf"
 set-face global PrimarySelection      ",%opt{brown_dark}+g"
 set-face global SecondarySelection    ",%opt{brown_dark}+g"
-# set-face global PrimaryCursorEol   "%opt{background},%opt{orange_golden}+fg"
-# set-face global SecondaryCursorEol "%opt{background},%opt{golden_muted}+fg"
 set-face global PrimaryCursorEol   PrimaryCursor
 set-face global SecondaryCursorEol SecondaryCursor
 set-face global LineNumbers        "%opt{g_8}"
@@ -73,7 +100,7 @@ set-face global LineNumbersWrapped LineNumbers
 set-face global MenuForeground     "%opt{background},%opt{orange_blaze}+b"
 set-face global MenuBackground     "%opt{g_3},%opt{g_9}"
 set-face global MenuInfo           "%opt{text},%opt{g_9}"
-set-face global Information        MenuBackground
+set-face global Information        MenuInfo
 set-face global InlineInformation  "%opt{g_6}+i"
 set-face global Error              "%opt{red_flame},%opt{g_10}"
 set-face global DiagnosticError    ",,%opt{red_flame}+c"
@@ -175,4 +202,3 @@ set-face global ts_string_special_url             "%opt{red_glowing}+b"
 set-face global ts_comment_block_documentation    "%opt{g_5}+i"
 set-face global ts_keyword_operator               "%opt{orange_blaze}"
 set-face global ts_markup_list                    "%opt{orange_glow}"
-
