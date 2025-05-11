@@ -90,6 +90,7 @@ set-face global Whitespace         "%opt{g_7}+f"
 
 # Tree-sitter (<https://git.sr.ht/~hadronized/kak-tree-sitter>)
 
+# kak-tree-sitter defaults
 set-face global ts_attribute                    "%opt{g_4}"
 set-face global ts_comment                      "%opt{g_6}+i"
 set-face global ts_comment_unused               "%opt{g_6}+is"
@@ -137,7 +138,7 @@ set-face global ts_markup_strikethrough         "+s"
 set-face global ts_namespace                    "%opt{orange_glow}+b"
 set-face global ts_operator                     "%opt{orange_blaze}"
 set-face global ts_property                     "%opt{g_2}"
-set-face global ts_punctuation                  "%opt{orange_golden}"
+set-face global ts_punctuation                  "%opt{g_2}"
 set-face global ts_punctuation_special          "%opt{orange_golden}"
 set-face global ts_special                      "%opt{orange_smolder}"
 set-face global ts_spell                        ",,%opt{g_5}+c"
@@ -161,3 +162,17 @@ set-face global ts_variable_builtin             "%opt{blue}"
 set-face global ts_variable_other_member        "%opt{g_2}"
 set-face global ts_variable_parameter           "%opt{g_2}+i"
 set-face global ts_warning                      "%opt{orange_golden},%opt{g_10}"
+
+# Helix capture groups
+set-face global ts_punctuation_delimiter          "%opt{orange_smolder}"
+set-face global ts_punctuation_bracket            "%opt{g_6}"
+set-face global ts_type_builtin                   "%opt{blue}"
+set-face global ts_type_parameter                 "%opt{orange_glow}"
+set-face global ts_constant_builtin               "%opt{blue}"
+set-face global ts_constant_character_escape      "%opt{g_2}"
+set-face global ts_constant_numeric               "%opt{blue}"
+set-face global ts_string_special_url             "%opt{red_glowing}+b"
+set-face global ts_comment_block_documentation    "%opt{g_5}+i"
+set-face global ts_keyword_operator               "%opt{orange_blaze}"
+set-face global ts_markup_list                    "%opt{orange_glow}"
+
