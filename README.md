@@ -82,7 +82,8 @@ muted warmth. The project is developed on
   more).
 - [Base16](./base16/README.md) — highly portable, no-nonsense theme
   specification.
-- [Pygments](./pygments/README.md) — Pythonic syntax highlighting.
+- [Pygments](./pygments/README.md) — Python library and CLI tool for syntax
+  highlighting.
 
 ## Contributing
 
