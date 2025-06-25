@@ -1,0 +1,22 @@
+[project]
+name = "pygments-ashen"
+version = "0.1.0"
+description = "Pygments style for Ashen"
+readme = "README.md"
+authors = [
+    { name = "Daniel Fichtinger", email = "daniel@ficd.ca" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pygments>=2.19.2",
+]
+
+[project.scripts]
+pygments = "pygments:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.entry-points."pygments.styles"]
+ashen = "pygments_ashen:AshenStyle"
