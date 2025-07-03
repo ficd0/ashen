@@ -1,6 +1,6 @@
 [project]
 name = "pygments-ashen"
-version = "0.1.1"
+version = "0.1.2"
 description = "Pygments style for Ashen"
 readme = "README.md"
 authors = [
