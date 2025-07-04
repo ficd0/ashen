@@ -85,7 +85,7 @@ class AshenStyle(Style):
         # NAME = NAME
         # NAME.NAME()
         Name: c.text,
-        Name.Attribute: f"{c.g_4} italic",
+        Name.Attribute: f"{c.g_4}",
         # `len`, `print`
         Name.Builtin: f"{c.blue}",
         # `self`
