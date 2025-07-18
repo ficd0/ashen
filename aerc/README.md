@@ -8,7 +8,7 @@ mkdir -p $HOME/.config/aerc/stylesets
 ```
 
 Next, you need to download the
-[ashen](https://git.sr.ht/~ficd/ashen/blob/main/aerc/ashen) file and place it
+[ashen](https://codeberg.org/ficd/ashen/raw/branch/main/aerc/ashen) file and place it
 inside that folder. Finally, you have to select it in you `aerc.conf`:
 
 ```ini

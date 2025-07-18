@@ -1,7 +1,7 @@
 # Television
 
 Please download
-[ashen.toml](https://git.sr.ht/~ficd/ashen/blob/main/television/ashen.toml) and
+[ashen.toml](https://codeberg.org/ficd/ashen/raw/branch/main/television/ashen.toml) and
 place it inside your television configuration's theme directory, usually
 `~/.config/television/themes`. Then, you can enable Ashen in your television
 `config.toml`:

@@ -5,5 +5,5 @@
 > otherwise some colors set by the theme may not be respected.
 
 To install this theme, kindly download
-[theme.yml](https://git.sr.ht/~ficd/ashen/blob/main/eza/theme.yml) and place it
+[theme.yml](https://codeberg.org/ficd/ashen/raw/branch/main/eza/theme.yml) and place it
 inside your `~/.config/eza`.

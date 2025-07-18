@@ -41,7 +41,7 @@ For example:
 # create theme directory if it doesn't exist
 mkdir -p ~/.config/helix/themes && \
 # download latest version of ashen
-curl https://git.sr.ht/~ficd/ashen/blob/main/helix/ashen.toml \
+curl https://codeberg.org/ficd/ashen/raw/branch/main/helix/ashen.toml \
 # save the file as ashen-dev.toml
 -o ~/.config/helix/themes/ashen-dev.toml
 ```

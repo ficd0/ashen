@@ -15,7 +15,7 @@ dependencies = [
 pygments = "pygments:main"
 
 [project.urls]
-Repository = "https://git.sr.ht/~ficd/ashen"
+Repository = "https://codeberg.org/ficd/ashen"
 
 [build-system]
 requires = ["hatchling"]

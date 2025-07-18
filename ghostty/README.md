@@ -1,6 +1,6 @@
 # Ghostty
 
-Download [ashen](https://git.sr.ht/~ficd/ashen/blob/main/ghostty/ashen), then
+Download [ashen](https://codeberg.org/ficd/ashen/raw/branch/main/ghostty/ashen), then
 add it to your `config`:
 
 ```ini

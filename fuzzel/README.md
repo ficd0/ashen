@@ -1,5 +1,5 @@
 To use this theme, please download
-[ashen.ini](https://git.sr.ht/~ficd/ashen/blob/main/fuzzel/ashen.ini) and place
+[ashen.ini](https://codeberg.org/ficd/ashen/raw/branch/main/fuzzel/ashen.ini) and place
 it inside your fuzzel configuration. Then, you can include it in your config:
 
 ```ini

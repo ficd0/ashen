@@ -1,5 +1,5 @@
 The recommended way to install the theme is to use foot's `include` directive.
-Download [ashen.ini](https://git.sr.ht/~ficd/ashen/blob/main/foot/ashen.ini) and
+Download [ashen.ini](https://codeberg.org/ficd/ashen/raw/branch/main/foot/ashen.ini) and
 edit `foot.ini`:
 
 ```ini
