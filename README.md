@@ -33,7 +33,7 @@ muted warmth. The project is developed on
 > _Where syntax takes shape._
 
 - [Helix](./helix/README.md) — the best theme for the (second) best editor.
-- [Kakoune](https://codeberg.org/icd/kak-ashen) — POSIX compliant editing, in
+- [Kakoune](https://codeberg.org/ficd/kak-ashen) — POSIX compliant editing, in
   style.
 - [Neovim](https://codeberg.org/ficd/ashen.nvim) — For stylish dependency
   lovers.
