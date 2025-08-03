@@ -59,6 +59,7 @@ muted warmth. The project is developed on
 - [yazi](./ashen.yazi/README.md) — fast, clean file browsing.
 - [fzf](./fzf/README.md) — fuzzy finding with focus.
 - [fish](./fish/README.md) — the friendly shell made even friendlier.
+- [zsh](./zsh) — shell syntax highlighting
 - [television](./television/README.md) — fuzzier `fzf` in gray.
 - [aerc](./aerc/README.md) — email done plainly, with muted elegance.
 - [zellij](./zellij/README.md) — terminal multiplexed with subdued grace.
