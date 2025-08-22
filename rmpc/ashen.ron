@@ -1,0 +1,153 @@
+// Theming (hooray!)
+// Ashen
+
+// Ansi Replacements
+// black: #121212
+// red: #c53030
+// green: #c53030
+// yellow: #e49a44
+// blue: #4a8b8b
+// magenta: #e5e5e5
+// cyan: #4a8b8b
+// gray: #a7a7a7
+// dark_gray: #212121
+// light_red: #b14242
+// light_green: #89492a
+// light_yellow: #e5a72a
+// light_blue: #4a8b8b
+// light_magenta: #df6464
+// light_cyan: #4a8b8b
+// white: #e5e5e5
+
+#![enable(implicit_some)]
+#![enable(unwrap_newtypes)]
+#![enable(unwrap_variant_newtypes)]
+(
+    default_album_art_path: None,
+    show_song_table_header: true,
+    draw_borders: true,
+    format_tag_separator: " | ",
+    browser_column_widths: [20, 38, 42],
+    background_color: None,
+    text_color: None,
+    header_background_color: None,
+    modal_background_color: None,
+    preview_label_style: (fg: "#c4693d"),
+    preview_metadata_group_style: (fg: "#e49a44", modifiers: "Bold"),
+    tab_bar: (
+        enabled: true,
+        active_style: (fg: "#121212", bg: "#b14242", modifiers: "Bold"),
+        inactive_style: (),
+    ),
+    highlighted_item_style: (fg: "#c4693d", modifiers: "Bold"),
+    current_item_style: (fg: "#121212", bg: "#c4693d", modifiers: "Bold"),
+    borders_style: (fg: "#b14242"),
+    highlight_border_style: (fg: "#b14242"),
+    symbols: (song: "S", dir: "D", playlist: "P", marker: "M", ellipsis: "..."),
+    progress_bar: (
+        symbols: ["[", "-", ">", " ", "]"],
+        track_style: (fg: "#c4693d"),
+        elapsed_style: (fg: "#b14242"),
+        thumb_style: (fg: "#b14242", bg: "#1e2030"),
+    ),
+    scrollbar: (
+        symbols: ["│", "█", "▲", "▼"],
+        track_style: (),
+        ends_style: (),
+        thumb_style: (fg: "#b14242"),
+    ),
+    song_table_format: [
+        (
+            prop: (kind: Property(Artist),
+                default: (kind: Text("Unknown"))
+            ),
+            width: "20%",
+        ),
+        (
+            prop: (kind: Property(Title),
+                default: (kind: Text("Unknown"))
+            ),
+            width: "35%",
+        ),
+        (
+            prop: (kind: Property(Album), style: (fg: "#e5e5e5"),
+                default: (kind: Text("Unknown Album"), style: (fg: "#e5e5e5"))
+            ),
+            width: "30%",
+        ),
+        (
+            prop: (kind: Property(Duration),
+                default: (kind: Text("-"))
+            ),
+            width: "15%",
+            alignment: Right,
+        ),
+    ],
+    header: (
+        rows: [
+            (
+                left: [
+                    (kind: Text("["), style: (fg: "#e49a44", modifiers: "Bold")),
+                    (kind: Property(Status(State)), style: (fg: "#e49a44", modifiers: "Bold")),
+                    (kind: Text("]"), style: (fg: "#e49a44", modifiers: "Bold"))
+                ],
+                center: [
+                    (kind: Property(Song(Title)), style: (modifiers: "Bold"),
+                        default: (kind: Text("No Song"), style: (modifiers: "Bold"))
+                    )
+                ],
+                right: [
+                    (kind: Property(Widget(ScanStatus)), style: (fg: "#b14242")),
+                    (kind: Property(Widget(Volume)), style: (fg: "#b14242"))
+                ]
+            ),
+            (
+                left: [
+                    (kind: Property(Status(Elapsed))),
+                    (kind: Text(" / ")),
+                    (kind: Property(Status(Duration))),
+                    (kind: Text(" (")),
+                    (kind: Property(Status(Bitrate))),
+                    (kind: Text(" kbps)"))
+                ],
+                center: [
+                    (kind: Property(Song(Artist)), style: (fg: "#e49a44", modifiers: "Bold"),
+                        default: (kind: Text("Unknown"), style: (fg: "#e49a44", modifiers: "Bold"))
+                    ),
+                    (kind: Text(" - ")),
+                    (kind: Property(Song(Album)),
+                        default: (kind: Text("Unknown Album"))
+                    )
+                ],
+                right: [
+                    (
+                        kind: Property(Widget(States(
+                            active_style: (fg: "#e5e5e5", modifiers: "Bold"),
+                            separator_style: (fg: "#e5e5e5")))
+                        ),
+                        style: (fg: "#212121")
+                    ),
+                ]
+            ),
+        ],
+    ),
+    browser_song_format: [
+        (
+            kind: Group([
+                (kind: Property(Track)),
+                (kind: Text(" ")),
+            ])
+        ),
+        (
+            kind: Group([
+                (kind: Property(Artist)),
+                (kind: Text(" - ")),
+                (kind: Property(Title)),
+            ]),
+            default: (kind: Property(Filename))
+        ),
+    ],
+    cava: (
+        bar_color: Single("#4a8b8b"),        
+    )
+)
