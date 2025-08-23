@@ -9,82 +9,72 @@
 [Ashen](https://codeberg.org/ficd/ashen) is a warm, muted theme born from the
 glow of dying embers — rich in reds, orange highlights, and layers of gray.
 Inspired by _Dark Souls III_, it's crafted to be gentle on the eyes and steady
-on the mind. Whether you're deep in the terminal or writing code by candlelight
-— Ashen offers a calm, focused atmosphere for development after dark.
+on the mind. Whether you're deep in the terminal or writing code by candlelight,
+Ashen offers a calm, focused atmosphere for development after dark.
 
 This monorepository contains official implementations of Ashen across a range of
-editors, terminals, tools, and more — each carefully tuned to carry the same
+editors, terminals, tools, and more. Each is carefully tuned to carry the same
 muted warmth. The project is developed on
 [Codeberg](https://codeberg.org/ficd/ashen) and provides a read-only mirror on
 [GitHub](https://github.com/ficcdaf/ashen). Please see
 [Contributing](#contributing) to learn how to contribute to Ashen.
 
-- [Editors](#editors)
-- [Terminals](#terminals)
-- [Tools & Interfaces](#tools--interfaces)
-- [Desktop & UI](#desktop--ui)
-- [Theme Formats](#theme-formats)
-- [Contributing](#contributing)
-
 ![](preview/palette.png)
 
-## Editors
+<!--toc:start-->
 
-> _Where syntax takes shape._
+- [Ashen](#ashen)
+  - [Text Editors](#text-editors)
+  - [Terminals](#terminals)
+  - [Tools & Interfaces](#tools-interfaces)
+  - [Desktop & UI](#desktop-ui)
+  - [Theme Formats](#theme-formats)
+  - [Contributing](#contributing)
 
-- [Helix](./helix/README.md) — the best theme for the (second) best editor.
-- [Kakoune](https://codeberg.org/ficd/kak-ashen) — POSIX compliant editing, in
-  style.
-- [Neovim](https://codeberg.org/ficd/ashen.nvim) — For stylish dependency
-  lovers.
+<!--toc:end-->
+
+## Text Editors
+
+- [Helix](./helix/README.md)
+- [Kakoune](https://codeberg.org/ficd/kak-ashen)
+- [Neovim](https://codeberg.org/ficd/ashen.nvim)
 
 ## Terminals
 
-> _Words against the dark — quiet, deliberate._
-
-- [Ghostty](./ghostty/README.md) — sleek and spectral.
-- [Kitty](./kitty/README.md) — for configuration fiends seeking warm tones.
-- [Alacritty](./alacritty/README.md) — no distractions, just firepower.
-- [Windows Terminal](./windows-terminal/README.md) — Ashen for the dark side.
-- [WezTerm](./wezterm/README.md) — endlessly configurable, never loud.
-- [foot](./foot/README.md) — a dark theme for a light terminal.
+- [Alacritty](./alacritty/README.md)
+- [foot](./foot/README.md)
+- [Ghostty](./ghostty/README.md)
+- [Kitty](./kitty/README.md)
+- [WezTerm](./wezterm/README.md)
+- [Windows Terminal](./windows-terminal/README.md)
 
 ## Tools & Interfaces
 
-> _Terminal tools softened by firelight._
-
-- [bat](./bat/README.md) — like `cat`, but warmer.
-- [eza](./eza/README.md) — a modern `ls` with subtle highlights.
-- [lazygit](./lazygit/README.md) — `git` bathed in ember tones.
-- [yazi](./ashen.yazi/README.md) — fast, clean file browsing.
-- [fzf](./fzf/README.md) — fuzzy finding with focus.
-- [fish](./fish/README.md) — the friendly shell made even friendlier.
-- [zsh](./zsh) — shell syntax highlighting
-- [television](./television/README.md) — fuzzier `fzf` in gray.
-- [aerc](./aerc/README.md) — email done plainly, with muted elegance.
-- [zellij](./zellij/README.md) — terminal multiplexed with subdued grace.
+- [aerc](./aerc/README.md)
+- [bat](./bat/README.md)
+- [eza](./eza/README.md)
+- [fish](./fish/README.md)
+- [fzf](./fzf/README.md)
+- [lazygit](./lazygit/README.md)
+- [television](./television/README.md)
+- [yazi](./ashen.yazi/README.md)
+- [zellij](./zellij/README.md)
+- [zsh](./zsh)
 
 ## Desktop & UI
 
-> _Let your environment glow._
-
-- [waybar](./waybar/README.md) — a status bar with just enough light.
-- [sway](./sway/README.md) — a tiled workspace in quiet tones.
-- [fuzzel](./fuzzel/README.md) — launch your apps with a whisper.
-- [zathura](./zathura/README.md) — focused reading for tired eyes.
-- [Firefox](./firefox/README.md) — the web, dimmed for comfort.
-- [Monkeytype](./monkeytype/README.md) — compose Shakespeare, Ashen style.
+- [Firefox](./firefox/README.md)
+- [fuzzel](./fuzzel/README.md)
+- [Monkeytype](./monkeytype/README.md)
+- [sway](./sway/README.md)
+- [waybar](./waybar/README.md)
+- [zathura](./zathura/README.md)
 
 ## Theme Formats
 
-> _For bringing Ashen elsewhere._
-
-- [tmTheme](./tmtheme/README.md) — classic syntax format (TextMate, Sublime, and
-  more).
-- [Base16](./base16/README.md) — highly portable, no-nonsense theme
-  specification.
-- [Pygments](./pygments/README.md) — Python library and CLI tool for syntax
-  highlighting.
+- [Base16](./base16/README.md)
+- [Pygments](./pygments/README.md)
+- [tmTheme](./tmtheme/README.md)
 
 ## Contributing
 
