@@ -492,14 +492,14 @@
   scope: punctuation.definition.link, markup.underline.link
   settings:
     foreground: red_glowing
-    fontSyle: underline
+    fontStyle: underline
 - name: Markdown links
   scope: text.html.markdown punctuation.definition.link.title, string.other.link.title.markdown,
     markup.link, punctuation.definition.constant.markdown, constant.other.reference.link.markdown,
     markup.substitution.attribute-reference
   settings:
     foreground: red_glowing
-    fontSyle: italic
+    fontStyle: italic
 - name: Markdown code spans
   scope: punctuation.definition.raw.markdown, markup.inline.raw.string.markdown, markup.raw.block.markdown
   settings:

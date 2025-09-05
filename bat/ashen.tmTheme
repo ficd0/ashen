@@ -1235,7 +1235,7 @@
 			<string>punctuation.definition.link, markup.underline.link</string>
 			<key>settings</key>
 			<dict>
-				<key>fontSyle</key>
+				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
 				<string>#DF6464</string>
@@ -1248,7 +1248,7 @@
 			<string>text.html.markdown punctuation.definition.link.title, string.other.link.title.markdown, markup.link, punctuation.definition.constant.markdown, constant.other.reference.link.markdown, markup.substitution.attribute-reference</string>
 			<key>settings</key>
 			<dict>
-				<key>fontSyle</key>
+				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#DF6464</string>
