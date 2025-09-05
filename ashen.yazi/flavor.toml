@@ -1,8 +1,10 @@
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # : Manager {{{
 
-[manager]
+[mgr]
 cwd = { fg = "#D87C4A", bold = true }
 
 # Hovered
@@ -19,11 +21,6 @@ marker_cut = { fg = "#C53030", bg = "#C53030" }
 marker_marked = { fg = "#E5A72A", bg = "#E5A72A" }
 marker_selected = { fg = "#C4693D", bg = "#C4693D" }
 
-# Tab
-tab_active = { reversed = true }
-tab_inactive = {}
-tab_width = 1
-
 # Count
 count_copied = { fg = "#121212", bg = "#629C7D" }
 count_cut = { fg = "#121212", bg = "#C53030" }
@@ -36,10 +33,22 @@ border_style = { fg = "#a7a7a7" }
 # : }}}
 
 
+# : Tabs {{{
+
+[tabs]
+active = { fg = "#121212", bg = "#b4b4b4", bold = true }
+inactive = { fg = "#b4b4b4", bg = "#212121" }
+
+# Separator
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+# : }}}
+
+
 # : Mode {{{
 
 [mode]
-
 normal_main = { fg = "#121212", bg = "#b4b4b4", bold = true }
 normal_alt = { fg = "#b4b4b4", bg = "#212121" }
 
@@ -57,8 +66,8 @@ unset_alt = { fg = "#D87C4A", bg = "#212121" }
 # : Status bar {{{
 
 [status]
-separator_open = ""
-separator_close = ""
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
 
 # Progress
 progress_label = { fg = "#121212", bold = true }
@@ -98,7 +107,7 @@ selected = { reversed = true }
 
 # : Completion {{{
 
-[completion]
+[cmp]
 border = { fg = "#B14242" }
 
 # : }}}
@@ -146,6 +155,33 @@ footer = { fg = "#e5e5e5", bg = "#121212" }
 title_info = { fg = "#d5d5d5" }
 title_warn = { fg = "#E5A72A" }
 title_error = { fg = "#C53030" }
+
+# : }}}
+
+
+# : Spotter {{{
+
+[spot]
+border = { fg = "#C4693D" }
+title  = {}
+
+# Table
+tbl_cell = { fg = "#d5d5d5", reversed = true }
+tbl_col  = {}
+
+# : }}}
+
+
+# : Confirmation {{{
+
+[confirm]
+border     = { fg = "#C4693D" }
+title      = {}
+
+list       = {}
+btn_yes    = { reversed = true }
+btn_no     = {}
+btn_labels = [ " [Y]es  ", "  (N)o  " ]
 
 # : }}}
 
