@@ -16,8 +16,11 @@ This monorepository contains official implementations of Ashen across a range of
 editors, terminals, tools, and more. Each is carefully tuned to carry the same
 muted warmth. The project is developed on
 [Codeberg](https://codeberg.org/ficd/ashen) and provides a read-only mirror on
-[GitHub](https://github.com/ficcdaf/ashen). Please see
+[GitHub](https://github.com/ficd0/ashen). Please see
 [Contributing](#contributing) to learn how to contribute to Ashen.
+
+> [!NOTE]
+> The GitHub mirror will likely be deleted in the near future.
 
 ![](preview/palette.png)
 
@@ -30,6 +33,7 @@ muted warmth. The project is developed on
   - [Desktop & UI](#desktop-ui)
   - [Theme Formats](#theme-formats)
   - [Contributing](#contributing)
+    - [Porting Ashen](#porting-ashen)
 
 <!--toc:end-->
 
@@ -78,12 +82,27 @@ muted warmth. The project is developed on
 
 ## Contributing
 
+### Guidelines
+
 I do not accept PRs on GitHub! Please contribute on
-[Codeberg](https://codeberg.org/ficd/ashen).
+[Codeberg](https://codeberg.org/ficd/ashen). I also accept contributions via
+`git-send-mail`, please send patches to `daniel <AT> ficd <DOT> sh`.
+
+Make sure your contribution adheres to the existing structure of the repository.
+For example, if you're adding a new port, the subdirectory should contain a
+`README.md` with installation instructions, and an appropriate link should be
+added the main `README`.
+
+Please add yourself to the [`AUTHORS`](./AUTHORS) file when you're done. Don't
+list individual commits; summarize your contribution succinctly. Also note that
+the primary authors retain the right to deny any changes if they don't fit with
+our vision for Ashen.
+
+### Porting Ashen
 
 If you're porting Ashen, use the existing ports as a reference for the palette
-and overall feel. Treat [Helix](./helix/README.md) as the "ultimate" guide on
-the colors to be assigned to syntax elements.
+and overall feel. Treat [Kakoune](./kakoune/) as the "ultimate" guide on the
+colors to be assigned to syntax elements.
 
 As a rule of thumb: numbers and builtin literal types should be `blue`, strings
 `red_glowing`, keywords `red_ashen`, operators `orange_blaze`, delimiters
