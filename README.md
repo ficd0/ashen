@@ -33,6 +33,7 @@ muted warmth. The project is developed on
   - [Desktop & UI](#desktop-ui)
   - [Theme Formats](#theme-formats)
   - [Contributing](#contributing)
+    - [Guidelines](#guidelines)
     - [Porting Ashen](#porting-ashen)
 
 <!--toc:end-->
