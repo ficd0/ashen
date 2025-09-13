@@ -148,6 +148,10 @@
         ),
     ],
     cava: (
-        bar_color: Single("#4a8b8b"),        
+        bar_color: Gradient({
+            0: "#B14242",
+            50: "#C4693D",
+            100: "#C53030",
+        }),
     )
 )
