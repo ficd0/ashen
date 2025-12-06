@@ -43,6 +43,7 @@ muted warmth. The project is developed on
 - [Helix](./helix/README.md)
 - [Kakoune](https://codeberg.org/ficd/kak-ashen)
 - [Neovim](https://codeberg.org/ficd/ashen.nvim)
+- [Zed](./zed/README.md)
 
 ## Terminals
 
