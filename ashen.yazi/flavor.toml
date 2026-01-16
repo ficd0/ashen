@@ -33,6 +33,14 @@ border_style = { fg = "#a7a7a7" }
 # : }}}
 
 
+# : Indicator {{{
+
+[indicator]
+padding = { open = "", close = "" }
+
+# : }}}
+
+
 # : Tabs {{{
 
 [tabs]
@@ -204,6 +212,10 @@ rules = [
   { mime = "application/{pdf,doc,rtf}", fg = "#C4693D" },
 
   # Fallback
+  { url = "*", fg = "#d5d5d5" },
+  { url = "*/", fg = "#B14242" },
+
+  # TODO: remove (changed in 26.1.4)
   { name = "*", fg = "#d5d5d5" },
   { name = "*/", fg = "#B14242" },
 ]
