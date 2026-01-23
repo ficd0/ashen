@@ -40,6 +40,7 @@ muted warmth. The project is developed on
 
 ## Text Editors
 
+- [Emacs](./emacs/README.md)
 - [Helix](./helix/README.md)
 - [Kakoune](https://codeberg.org/ficd/kak-ashen)
 - [Neovim](https://codeberg.org/ficd/ashen.nvim)
