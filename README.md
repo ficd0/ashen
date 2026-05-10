@@ -16,8 +16,9 @@ This monorepository contains official implementations of Ashen across a range of
 editors, terminals, tools, and more. Each is carefully tuned to carry the same
 muted warmth. The project is developed on
 [Codeberg](https://codeberg.org/ficd/ashen) and provides a read-only mirror on
-[GitHub](https://github.com/ficd0/ashen). Please see
-[Contributing](#contributing) to learn how to contribute to Ashen.
+[GitHub](https://github.com/ficd0/ashen). Our official website is
+[ashen.style](https://ashen.style). Please see [Contributing](#contributing) to
+learn how to contribute to Ashen.
 
 > [!NOTE]
 > The GitHub mirror will likely be deleted in the near future.
